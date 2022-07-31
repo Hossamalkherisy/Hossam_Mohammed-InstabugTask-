@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="36.471">
+    <testcase classname="F01_Search | user can &quot;search&quot; UI functionality" name="Check the search box is clickable or not" time="5.794">
+        <system-out><![CDATA[Given i stand on search page................................................passed
+When I add cats to the search box and click the Search Button...............passed
+Then cats should be mentioned in the results................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F01_Search | user can &quot;search&quot; UI functionality" name="Check if the user is searching by entering the special character" time="3.166">
+        <system-out><![CDATA[Given i stand on search page to test special character......................passed
+When I add special character to the search box click the Search Button......passed
+Then check result successfully..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F01_Search | user can &quot;search&quot; UI functionality" name="Check  auto-suggestion" time="2.813">
+        <system-out><![CDATA[Given i stand on search page to test  auto-suggestion.......................passed
+When I add fac to the search box............................................passed
+And click the Search Button and check facebook appear.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F01_Search | user can &quot;search&quot; UI functionality" name="Check that user can make search corresponding to different categories – web, images, videos," time="11.534">
+        <system-out><![CDATA[Given i stand on search page click on image.................................passed
+When I add  Admin to the search box.........................................passed
+And click the Search Button and check Admin image appears successfully......passed
+]]></system-out>
+    </testcase>
+</testsuite>
